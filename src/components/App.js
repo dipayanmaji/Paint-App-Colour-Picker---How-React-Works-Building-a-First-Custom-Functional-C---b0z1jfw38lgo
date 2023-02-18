@@ -36,7 +36,7 @@ const App = () => {
 
       <div className="row">
         {colourConfig.map((config, index) => (
-          <ColourSelector key={config.key} config={config} selectNextBackground={selectNextBackground} />
+          <ColourSelector key={index} config={config} selectNextBackground={selectNextBackground} />
         ))}
       </div>
 
